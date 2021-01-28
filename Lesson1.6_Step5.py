@@ -8,7 +8,7 @@ browser.get(link)
 
 
 try:
-    some_number = str (math.ceil(math.pow(math.pi, math.e) * 10000))
+    some_number = str(math.ceil(math.pow(math.pi, math.e) * 10000))
     link = browser.find_element_by_link_text(some_number)
     link.click()
     input1 = browser.find_element_by_tag_name("input")
